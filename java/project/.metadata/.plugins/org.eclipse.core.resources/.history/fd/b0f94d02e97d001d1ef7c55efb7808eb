@@ -1,0 +1,15 @@
+package com;
+
+public class switchOperator {
+	public static void display(int num) {
+	
+		for(int i=9 ; i <=num ; i++) {
+			System.out.println(i);
+		}
+	}
+	public static void main(String[] args) {
+		display(1);
+	}
+}
+	
+	

@@ -1,0 +1,23 @@
+package com.logical.string;
+
+import java.util.Scanner;
+
+public class AlphabetRepeat {
+	public static String concat(String str,int n)
+	{
+		
+		return str;
+		
+	}
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("enter string :");
+		String s1=scan.nextLine();
+		System.out.println("enter n valu:");
+		int n= scan.nextInt();
+		System.out.println(concat(str,n));
+
+	}
+
+}

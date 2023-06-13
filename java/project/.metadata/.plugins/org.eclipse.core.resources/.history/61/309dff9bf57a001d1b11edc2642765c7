@@ -1,0 +1,20 @@
+package com;
+
+public class dec13 {
+	public static void display(char alpha) {
+		
+		for (char i = 'A'; i <= alpha ; i++) 
+		{
+			for (char j = 'A'; j <= alpha ; j++) 
+			{
+				System.out.print(j + " ");
+			}
+			System.out.println(" ");
+		}
+	}
+	public static void main(String[] args) {
+		
+		display('C');
+	}
+
+}

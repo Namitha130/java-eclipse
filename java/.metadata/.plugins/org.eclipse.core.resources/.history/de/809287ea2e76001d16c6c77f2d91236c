@@ -1,0 +1,36 @@
+package com;
+
+public class operators {
+	
+public static void main(String[] args) {
+	int a = 5;
+	int b = 3;
+	boolean c= a >b || a<b ; //true
+	
+	 System.out.println(c); //true
+	 System.out.println(10 <5 ||10<5); //f
+	 System.out.println(2>1 || 7>9 );  //t
+	                                                                                
+	 // AND operator 
+	 
+	 int x=5;
+	 int y=5;
+	 
+	 boolean z= x<y && x<y;
+	 System.out.println( "Z is "+z); //false
+	 System.out.println(x==y && x<y);// false
+	 System.out.println(x==y && x==y);// true
+	 
+	 
+	 // ternary operator
+	 
+	 int k=26;
+	 int n=23;
+	 
+	 System.out.println(k>n); 
+	 System.out.println(k<n);
+	 System.out.println(!(k>n));
+	
+}
+
+}

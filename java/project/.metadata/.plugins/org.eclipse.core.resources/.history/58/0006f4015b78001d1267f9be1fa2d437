@@ -1,0 +1,75 @@
+package com;
+
+public class exampletest1 
+{
+	public static void main(String[] args) 
+	{
+
+		
+//			int a=5;
+//			int b=4; 
+//			boolean c= a>b || a>b;
+//			System.out.println(c);
+//			boolean d= a>b && a>b;
+//					// ternary operators
+//			String answer =(a>b) ? "hi":"bye"; 
+//			System.out.println(answer);
+//			 
+//			int x=0;
+//			if(x>=0)
+//			{
+//				System.out.println("+ve number");
+//			}
+//			else
+//			{
+//				System.out.println("-ve numbers");
+//			}
+	//	
+		
+			//example 1 for * pattern right angle triangle
+			for(int i=1;i<=5;i++)
+			{
+				for(int j=1;j<=i;j++)
+				{
+				 System.out.print("*");
+				}
+				System.out.println("");			
+			}
+		
+		// expmale 2 for star pattern reverse right angle triangle
+			for(int i=1;i<=5;i++)
+			{
+				for(int j=5;j>=i;j--)
+				{
+				 System.out.print("*");
+				}
+				System.out.println("");			
+			}
+			
+			// 5*5 star pattern 
+			
+			for(int i=5;i<=5;i++)
+				{
+					for(int j=5;j<=i;j++)
+				{
+						System.out.print("*");
+				
+			     }
+					System.out.println("");
+			     }
+			
+			int i, j, row=6;   
+			for(i=0; i<row; i++)   
+			{   
+
+			for(j=0; j<=i; j++)   
+			{   
+			 
+			System.out.print("* ");   
+			}   
+			 
+			System.out.println();   
+			} 
+			
+	}
+}

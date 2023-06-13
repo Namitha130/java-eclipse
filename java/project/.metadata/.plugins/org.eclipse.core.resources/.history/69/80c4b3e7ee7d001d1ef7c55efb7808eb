@@ -1,0 +1,22 @@
+package com;
+
+public class switchOperator {
+public static void test(int num) {
+	int num1 = 100;
+	
+	switch(num1 % 2)
+    {
+        
+     case 0: 
+           System.out.println("Number is even");
+            break;
+
+       	    case 1: 
+            System.out.println("Number is odd");
+            
+       	 };   
+}
+public static void main(String[] args) {
+	test(4);
+	}
+}

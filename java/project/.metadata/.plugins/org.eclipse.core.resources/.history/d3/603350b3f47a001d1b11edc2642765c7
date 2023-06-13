@@ -1,0 +1,82 @@
+package com;
+
+public class patterns {
+	public static void display(int num ) {
+		
+		System.out.println("---- 123456789 pattern---");
+		int a1= 1; 
+		for(int i = 1; i <= num ; i++)
+		{
+			for(int j = 1 ; j <= num ; j++) 
+			{
+				System.out.print(a1 + " ");
+				a1++;
+				
+			}
+			System.out.println(" ");
+		} 
+
+		System.out.println("---- 987654321 pattern---");
+		int a2= 9; 
+		for(int i = 1; i <= num ; i++)
+		{
+			for(int j = 1 ; j <= num ; j++) 
+			{
+				System.out.print(a2 + " ");
+				a2--;
+				
+			}
+			System.out.println(" ");
+		} 
+		
+		
+		
+		
+		
+		System.out.println(" ------ pattern 2 4 6 8 10 12 14 16 18 -----");
+		
+		int a3= 1;  
+		for(int i = 1; i <= num ; i++)
+		{
+			for(int j = 1 ; j <= num ; j++) 
+			{
+				System.out.print(a3 * 2 + " ");
+				a3++;
+				
+			}
+			System.out.println(" ");
+		} 
+		
+		System.out.println("--- 1 0 1 Pattern---");
+		int a4=1;
+		for(int i = 1; i <= num ; i++)
+		{
+			for(int j = 1 ; j <= num ; j++) 
+			{
+				System.out.print(a4 % 2 + " ");
+				a4++;
+				
+			}
+			System.out.println(" ");
+		} 	  
+		
+		
+	System.out.println("-----0 1 0   pattern---");
+	
+		a1= 0;
+		for(int i = 1; i <= num ; i++)
+		{
+			for(int j = 1 ; j <= num ; j++) 
+			{
+				System.out.print(a1 % 2 + " ");
+				a1++;
+				
+			}
+			System.out.println(" ");
+		} 
+	}
+ public static void main(String[] args) {
+	 display(3);
+	
+}
+}

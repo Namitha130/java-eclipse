@@ -1,0 +1,64 @@
+package com.java.patterns;
+
+public class Patterns 
+
+{
+	public static void alpha(int n)
+	{
+		int firstNum=1; 
+		char firstChar = 'A';
+		for(int i=1;i<=n;i++)
+		{
+			for(int j=1;j<=n;j++)
+			{	
+				if(firstNum<=4) {
+					System.out.print(firstNum+" ");
+					firstNum++;
+				}
+				else {
+					System.out.print( firstChar+ " ");
+					firstChar++;
+				}
+			}
+			System.out.println("");
+		}
+
+	}
+	
+	public static void main(String[] args) 
+	{	
+//		System.out.println("--------");
+//		for(int i=1;i<=4;i++)
+//		{
+//			for(int j=1; j<=4;j++)
+//			{
+//				if(i==1|| i==4||j==1||j==4)
+//				{
+//					System.out.print("* ");
+//				}
+//				System.out.print("");
+//			}
+//			System.out.println("");
+//		}
+		
+		int x=1; 
+		char y = 'A';
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=1;j<=5;j++)
+			{	
+				if(x<=12) {
+					System.out.print(x+" ");
+					x++;
+				}
+				else {
+					System.out.print( y+ " ");
+					y++;
+				}
+			}
+			System.out.println("");
+		}
+		
+	}
+	
+}

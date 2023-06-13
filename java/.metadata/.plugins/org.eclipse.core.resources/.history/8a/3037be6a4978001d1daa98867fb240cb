@@ -1,0 +1,17 @@
+package com;
+
+public class example {
+	public static void main(String[] args) {
+		int a=5;
+		int b=4;
+		boolean c= a>b || a>b;
+		System.out.println(c);
+		
+		boolean d= a>b && a>b;
+		
+	String answer =(a>b) ? "hi":"bye";
+	System.out.println(answer);
+		
+	}
+
+}

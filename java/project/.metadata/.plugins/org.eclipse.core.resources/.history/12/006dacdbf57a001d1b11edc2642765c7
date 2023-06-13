@@ -1,0 +1,21 @@
+package com;
+
+public class dec13 {
+	public static void display(char alpha) {
+
+		System.out.println("------pattern 1 ABC---");
+		for (char i = 'A'; i <= alpha; i++) {
+			for (char j = 'A'; j <= alpha; j++) {
+				System.out.print(j + " ");
+			}
+			System.out.println(" ");
+		}
+	}
+	sysout
+	
+	public static void main(String[] args) {
+
+		display('C');
+	}
+
+}

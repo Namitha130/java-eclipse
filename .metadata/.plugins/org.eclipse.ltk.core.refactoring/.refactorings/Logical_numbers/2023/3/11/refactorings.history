@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.logical.array.ShiftLeft&apos; to &apos;ShiftFirstDigit&apos;&#x0D;&#x0A;- Original project: &apos;Logical_numbers&apos;&#x0D;&#x0A;- Original element: &apos;com.logical.array.ShiftLeft&apos;&#x0D;&#x0A;- Renamed element: &apos;com.logical.array.ShiftFirstDigit&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ShiftLeft&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.logical.array{ShiftLeft.java[ShiftLeft" matchStrategy="1" name="ShiftFirstDigit" qualified="false" references="true" similarDeclarations="false" stamp="1678622360628" textual="false" version="1.0"/>
+</session>

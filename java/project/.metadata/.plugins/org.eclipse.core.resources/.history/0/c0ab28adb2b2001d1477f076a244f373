@@ -1,0 +1,32 @@
+package com.java.lucknum;
+
+public class LuckyNumber {
+	public static boolean lucky(int num)
+	{
+		int sum1 = num;
+		while (sum1 > 9) {
+			sum1 = help(sum1);
+		}
+		if (sum1 == 1) {
+			return true;
+
+		}
+		return false;
+	}
+
+	public static int help(int a) {
+		int sum = 0;
+		while (a > 0) 
+		{
+			int rem = a % 10;
+			sum = sum + rem;
+			a = a % 10;
+		}
+		return sum;
+	}
+
+	public static void main(String[] args) {
+		System.out.println(lucky(10));
+//		System.out.println(lucky(123));
+	}
+}
